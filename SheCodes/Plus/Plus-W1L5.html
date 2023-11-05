@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      .formgroup {
+        margin: 20px 0;
+      }
+      form {
+        border: 1px solid gray;
+        padding: 15px;
+        border-radius: 4px;
+      }
+      label {
+        font-weight: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h2>Welcome back</h2>
+      <div class="formgroup">
+        <label for="email">Enter your email address: </label>
+        <input type="email" id="email" required autofocus />
+      </div>
+      <div class="formgroup">
+        <label for="password">Enter your password: </label>
+        <input type="password" id="password" required minlength="2" />
+      </div>
+      <div class="formgroup">
+        <input type="submit" value="Login" />
+      </div>
+      <!-- <div class="formgroup">
+          <label for="name">Name: </label>
+          <input type="text" id="name" required minlength="2" />
+          <input type="email" />
+          <input type="date" class="date" />
+        </div> -->
+    </form>
+  </body>
+</html>
